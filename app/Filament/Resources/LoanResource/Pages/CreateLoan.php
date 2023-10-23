@@ -10,6 +10,8 @@ class CreateLoan extends CreateRecord
 {
     protected static string $resource = LoanResource::class;
 
+    protected static bool $canCreateAnother = false;
+
     protected function mutateFormDataBeforeCreate(array $data): array
     {
         $data['user_id'] = auth()->id();
