@@ -1,6 +1,8 @@
 # Loan Manager App
 
-A simple loan manager app as part of an assessment.
+A simple loan manager app as part of an assessment. 
+The app allows for a customer to apply for a loan and if the loan application is approved, to be able submit the weekly repayment.
+Also, included basic function for admin to approve any loan that is applied by the customer.
 
 ## Installation
 
@@ -66,4 +68,8 @@ Admin
 
 Customer
 -   **Username:** customer@example.com
+-   **Password:** password
+
+Customer Two
+-   **Username:** customer2@example.com
 -   **Password:** password
